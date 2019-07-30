@@ -45,7 +45,7 @@ table tr td { font-size: 1.4rem; padding: 10px 0; line-height: 4rem; }
 
 .backBtn { color: #fff; width: 15vw; font-size: 4rem; position: fixed; bottom: 2vh; right: 5vh; }
 
-.backBtn .fa-arrow-alt-circle-left { color: #aaa; background-color: white; border-radius: 50%; }
+.backBtn .fa-arrow-alt-circle-left { color: #aaa; background-color: white; border-radius: 50%; box-shadow: 4px 4px 6px #ccc; }
 
 .index-wrap { position: fixed; top: 10vh; z-index: 2; box-shadow: 3px 3px 7px #ddd; }
 
