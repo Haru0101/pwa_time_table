@@ -29,7 +29,7 @@ main .station-wrap { background-color: rgba(255, 255, 255, 0.4); border: double 
 
 main .station-wrap .station-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; text-align: center; /*一応BOX内の文字も中央寄せ*/ background-color: white; width: 60vw; height: 25vh; }
 
-main .station-wrap .station-name { display: inline-block; font-size: 1.6rem; padding: 0; margin: 0; color: #7da443; width: 40vw; vertical-align: middle; line-height: 25vh; }
+main .station-wrap .station-name { display: inline-block; font-size: 1.6rem; padding: 0; margin: 0; color: #777; width: 40vw; vertical-align: middle; line-height: 25vh; }
 
 .table { margin: 0; }
 
