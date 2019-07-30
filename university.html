@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <!-- 拡大縮小禁止 = maximum, minimum-scale=1 あとは画面幅に縦横を合わせるなどの設定-->
+    <meta name="apple-mobile-web-app-title" content="TFM1999">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="apple-touch-startup-image" href="images/big-icon.png">
+    <!-- 上4行はiOS用のアプリ化のタグ -->
+    <script rel="manifest" href="manifest.json"></script>
+    <!-- これがAndroid用のタグ -->
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>TFM 1999</title>
+</head>
+
+<body class="pageDisplay">
+    <header class="fixed-header">
+        <h1>大分大学前 → 大分</h1>
+    </header>
+    <!-- <header>
+        <h1>TFM 1999</h1>
+    </header> -->
+    <main class="table-wrap container">
+        <h1>
+            <table class="index-wrap">
+                <thead>
+                    <tr>
+                        <th class="side-index">時</th>
+                        <th class="top-index">平日</th>
+                        <th class="top-index">休日</th>
+                    </tr>
+                </thead>
+            </table>
+        </h1>
+        <div class="dummy-header1"> </div>
+        <div class="dummy-header2"> </div>
+        <table class="table table-striped">
+            <!-- <thead>
+                <tr>
+                    <th class="side-index">時</th>
+                    <th class="top-index">平日</th>
+                    <th class="top-index">休日</th>
+                </tr>
+            </thead> -->
+            <tr id="6" class="bt">
+                <th rowspan="2" class="side-index">06</th>
+                <td>06:14</td>
+                <td>06:14</td>
+            </tr>
+            <tr>
+                <td>06:38</td>
+                <td>06:38</td>
+            </tr>
+            <tr id="7" class="bt">
+                <th rowspan="3" class="side-index">07</th>
+                <td>07:02</td>
+                <td>07:02</td>
+            </tr>
+            <tr>
+                <td>07:25</td>
+                <td>07:45</td>
+            </tr>
+            <tr>
+                <td>07:45</td>
+                <td></td>
+            </tr>
+            <tr id="8" class="bt">
+                <th rowspan="3" class="side-index">08</th>
+                <td>08:08</td>
+                <td>08:08</td>
+            </tr>
+            <tr>
+                <td>08:22</td>
+                <td>08:22</td>
+            </tr>
+            <tr>
+                <td>08:45</td>
+                <td>08:45</td>
+            </tr>
+            <tr id="9" class="bt">
+                <th rowspan="3" class="side-index">09</th>
+                <td>09:14</td>
+                <td>09:14</td>
+            </tr>
+            <tr>
+                <td>09:35</td>
+                <td>09:35</td>
+            </tr>
+            <tr>
+                <td>09:54</td>
+                <td>09:54</td>
+            </tr>
+            <tr id="10" class="bt">
+                <th rowspan="3" class="side-index">10</th>
+                <td>10:16</td>
+                <td>10:16</td>
+            </tr>
+            <tr>
+                <td>10:29</td>
+                <td>10:29</td>
+            </tr>
+            <tr>
+                <td>10:53</td>
+                <td>10:53</td>
+            </tr>
+            <tr id="11" class="bt">
+                <th class="side-index">11</th>
+                <td>11:15</td>
+                <td>11:15</td>
+            </tr>
+            <tr id="12" class="bt">
+                <th class="side-index">12</th>
+                <td>12:20</td>
+                <td>12:20</td>
+            </tr>
+            <tr id="13" class="bt">
+                <th rowspan="2" class="side-index">13</th>
+                <td>13:06</td>
+                <td>13:06</td>
+            </tr>
+            <tr>
+                <td>13:44</td>
+                <td>13:44</td>
+            </tr>
+            <tr id="14" class="bt">
+                <th class="side-index">14</th>
+                <td>14:46</td>
+                <td>14:46</td>
+            </tr>
+            <tr id="15" class="bt">
+                <th class="side-index">15</th>
+                <td>15:14</td>
+                <td>15:14</td>
+            </tr>
+            <tr id="16" class="bt">
+                <th class="side-index">16</th>
+                <td>16:07</td>
+                <td>16:07</td>
+            </tr>
+            <tr id="17" class="bt">
+                <th rowspan="3" class="side-index">17</th>
+                <td>17:06</td>
+                <td>17:06</td>
+            </tr>
+            <tr>
+                <td>17:33</td>
+                <td>17:33</td>
+            </tr>
+            <tr>
+                <td>17:59</td>
+                <td>17:59</td>
+            </tr>
+            <tr id="18" class="bt">
+                <th rowspan="2" class="side-index">18</th>
+                <td>18:20</td>
+                <td>18:20</td>
+            </tr>
+            <tr>
+                <td>18:41</td>
+                <td>18:41</td>
+            </tr>
+            <tr id="19" class="bt">
+                <th rowspan="3" class="side-index">19</th>
+                <td>19:02</td>
+                <td>19:02</td>
+            </tr>
+            <tr>
+                <td>19:24</td>
+                <td>19:24</td>
+            </tr>
+            <tr>
+                <td>19:46</td>
+                <td>19:46</td>
+            </tr>
+            <tr id="20" class="bt">
+                <th rowspan="3" class="side-index">20</th>
+                <td>20:08</td>
+                <td>20:08</td>
+            </tr>
+            <tr>
+                <td>20:35</td>
+                <td>20:35</td>
+            </tr>
+            <tr>
+                <td>20:57</td>
+                <td>20:57</td>
+            </tr>
+            <tr id="21" class="bt">
+                <th rowspan="2" class="side-index">21</th>
+                <td>21:33</td>
+                <td>21:33</td>
+            </tr>
+            <tr>
+                <td>21:54</td>
+                <td>21:54</td>
+            </tr>
+            <tr id="22" class="bt">
+                <th class="side-index">22</th>
+                <td>22:07</td>
+                <td>22:07</td>
+            </tr>
+            <tr id="23" class="bt">
+                <th class="side-index">23</th>
+                <td>23:21</td>
+                <td>23:21</td>
+            </tr>
+        </table>
+        <a class="backBtn" href="" onclick="backBtn();"><i class="fas fa-arrow-alt-circle-left"></i></a>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

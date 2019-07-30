@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <!-- 拡大縮小禁止 = maximum, minimum-scale=1 あとは画面幅に縦横を合わせるなどの設定-->
+  <meta name="apple-mobile-web-app-title" content="TFM1999">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="images/icon.png">
+  <link rel="apple-touch-startup-image" href="images/big-icon.png">
+  <!-- 上4行はiOS用のアプリ化のタグ -->
+  <link rel="stylesheet" href="css/common.css">
+  <script rel="manifest" href="manifest.json"></script>
+  <!-- これがAndroid用のタグ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+  <title>TFM 1999</title>
+</head>
+
+<body class="pageDisplay">
+  <header>
+    <h1>利用駅の選択</h1>
+  </header>
+  <main>
+    <!-- <h2>出発駅を選んでください。</h2> -->
+    <a href="oita.html" class="choice top-choice">
+      <div class="station-wrap">
+        <div class="station-label">
+          <h3 class="station-name">Oita</h3>
+        </div>
+      </div>
+    </a>
+    <a href="university.html" class="choice under-choice">
+      <div class="station-wrap">
+        <div class="station-label">
+          <h3 class="station-name">University</h3>
+        </div>
+      </div>
+    </a>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
