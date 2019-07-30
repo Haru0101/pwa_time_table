@@ -5,7 +5,7 @@ body a:link { color: #333; text-decoration: none; }
 
 body a:visited { color: #333; }
 
-header { width: 100%; height: 10vh; text-align: center; padding: 0; margin: 0; position: relative; background: linear-gradient(to right, #2aca1f, #22cf98); }
+header { width: 100%; height: 10vh; text-align: center; padding: 0; margin: 0; position: relative; background: linear-gradient(to right, #2cd120, #23d49c); }
 
 header h1 { font-size: 1.6rem; font-weight: 400; line-height: 10vh; margin: 0; color: #fff; }
 
