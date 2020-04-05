@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
-<Header></Header>
+<header></header>
+<div id="MyAppRoot"></div>
 
 <body class="pageDisplay">
     <header class="fixed-header">
@@ -195,6 +196,9 @@
         import Header from "js/components/Header";
 
         var componentRoot = new Vue({
+            template: '<div>' +
+                '<header></header>' +
+                '</div>',
             components: {
                 Header: Header
             }
