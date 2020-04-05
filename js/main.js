@@ -43,8 +43,8 @@ $(function () {
 
     });
     //初期設定
-    getPage("index.html");
-    var lastpage = "index.html";
+    getPage("1.html");
+    var lastpage = "1.html";
 
     //ページを取得してくる
     function getPage(elm) {
