@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-<header></header>
-<div id="MyAppRoot"></div>
 
 <body class="pageDisplay">
     <header class="fixed-header">
@@ -187,23 +185,6 @@
         </table>
         <a class="backBtn" href="" onclick="backBtn();"><i class="fas fa-arrow-alt-circle-left"></i></a>
     </main>
-    <script src="js/main.js"></script>
-    <!-- 開発用 -->
-    <script src="js/vue.js"></script>
-    <!-- 本番用 -->
-    <!-- <script src="js/vue.min.js"></script> -->
-    <script>
-        import Header from "js/components/Header";
-
-        var componentRoot = new Vue({
-            template: '<div>' +
-                '<header></header>' +
-                '</div>',
-            components: {
-                Header: Header
-            }
-        })
-    </script>
 </body>
 
 </html>
