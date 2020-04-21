@@ -188,7 +188,8 @@
         var url = "https://tetsudo.rti-giken.jp/free/delay.json";
 
         fetch(url, {
-                mode: 'cors'
+                mode: 'cors',
+                credentials: 'include'
             })
             .then(function (response) {
                 return response.json();
