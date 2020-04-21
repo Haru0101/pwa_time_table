@@ -184,29 +184,6 @@
         <a class="backBtn" href="" onclick="backBtn();"><i class="fas fa-arrow-alt-circle-left"></i></a>
     </main>
     <script src="js/main.js"></script>
-    <script>
-        var url = "https://tetsudo.rti-giken.jp/free/delay.json";
-
-        fetch(url, {
-                mode: "no-cors", // no-cors, cors, *same-origin
-                cache: "no-cache",
-                credentials: "include",
-                headers: {
-                    "Content-Type": "application/json; charset=utf-8",
-                },
-            })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (myJson) {
-                for (var i = 0; i < myJson.length; i++) {
-                    if (myJson[i].name !== "豊肥本線") {
-                        alert("遅延が発生しています");
-                        return true;
-                    }
-                }
-            });
-    </script>
 </body>
 
 </html>
