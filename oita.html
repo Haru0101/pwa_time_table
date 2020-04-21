@@ -187,7 +187,9 @@
     <script>
         var url = "https://tetsudo.rti-giken.jp/free/delay.json";
 
-        fetch(url)
+        fetch(url, {
+                mode: 'cros'
+            })
             .then(function (response) {
                 return response.json();
             })
