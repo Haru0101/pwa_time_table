@@ -173,6 +173,9 @@ table tr td {
     border-spacing: 2px 0;
 }
 
+.delay-info {
+}
+
 .dummy-header1 {
     background-color: #f2eac9;
     font-size: 1.4rem;
