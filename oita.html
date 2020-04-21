@@ -192,7 +192,7 @@
             })
             .then(function (myJson) {
                 for (var i = 0; i < myJson.length; i++) {
-                    if (myJson[i].name == "豊肥本線") {
+                    if (myJson[i].name !== "豊肥本線") {
                         alert("遅延が発生しています");
                         return true;
                     }
